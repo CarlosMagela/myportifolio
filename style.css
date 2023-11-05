@@ -77,15 +77,7 @@ main{
   
    }
 
-       
-   .c li{
-display: inline-block;
-position: relative;
-width: 300px;
-height: 300px;
-margin-top: 0;
 
-   }
 .tabela{
     margin-left: 250px;
 }
@@ -115,9 +107,9 @@ background-position:right center;
 .titulo h1{
     min-width:320px;
     max-width:440px;
-    margin-top: -300px;
-    font-size: 70px;
-    margin-left: 630px;
+    margin-top: -100px;
+    font-size: 40px;
+    margin-left:30px;
     color: white;
     font-style: italic;
     padding:20;
@@ -127,8 +119,8 @@ background-position:right center;
     min-width:320px;
     max-width:740px;
     margin-top: -500px;
-    font-size: 80px;
-    margin-left:100px;
+    font-size: 50px;
+    margin-left:30px;
     color: white;
     font-style: italic;
     padding:20;
@@ -145,122 +137,31 @@ h4{
 p{
     font-size: 30px;
 }
-.nav1{
-    margin-left: 430px;
+.nav1 {
+    margin-left:30px;
+    margin-top: 500px;
 }
 
 
 
 .nav1 li{
-    margin-right: 25px;
+    margin-right:0;
     min-width:10px;
-    max-width: 580px;
-    margin-top: 300px;
+    max-width: 380px;
+    margin-top: 350px;
     height:20px;
-    align-items: center;
-    font-size: 30px;
+    align-items:left;
+    font-size: 70px;
     font-family:'Courier New', Courier, monospace ;
-    display:inline-block;   
+    display:inline;   
     position:relative;
-    text-shadow: 2px 2px 2px black ;
-    position:relative;
+    text-shadow: 3px 3px 3px black ;
+    
+
    
 }
 
 /*nav-sobre*/
-
-.nav1-sobre{
-    margin-left: 430px;
-}
-.nav1-sobre a:link{
-    margin: 0;
-    text-decoration: none;
-    font-style:oblique;
-    font-size: 50px;
-    display:inline-block;
-    margin-left:0;
-    border-bottom:3px solid black ;
-    border-left: 3px solid black;
-    border-radius: 25px;
-   }
-
-   .nav1-sobre li{
-    
-    min-width:10px;
-    max-width: 580px;
-    margin-top:0px;
-    margin-left:0;
-    height:30px;
-    font-size: 30px;
-    font-family:'Courier New', Courier, monospace ;
-    display:inline-block;   
-    position:relative;
-   
-}
-
-
-/*nav contato*/
-
-
-
-.nav1-contato a:link{
-    margin: 0;
-    text-decoration: none;
-    font-style:oblique;
-    font-size: 50px;
-    display:inline-block;
-    margin-left:25px;
-    border-bottom:3px solid black ;
-    border-left: 3px solid black;
-    border-radius: 25px;
-   }
-   .nav1-contato{
-    margin-left: 350px;
-   }   
-
-.nav1-contato li{
-    
-    min-width:10px;
-    max-width: 580px;
-    margin-top:0px;
-    margin-left:0;
-    height:30px;
-    font-size: 30px;
-    font-family:'Courier New', Courier, monospace ;
-    display:inline-block;   
-    position:relative;
-   
-    
-
-}
-.nav1-formacao li{
-    
-    min-width:10px;
-    max-width: 580px;
-    margin-top:0px;
-    margin-left:0;
-    height:30px;
-    font-size: 30px;
-    font-family:'Courier New', Courier, monospace ;
-    display:inline-block;   
-    position:relative;
-   
-}
-.redessociais li{
-    display:inline-block;
-    width: 50px;
-    height: 30px;
-    
-   }
-
-
-
-.redessociais img{
-width: 50px;
-height: 50px;
-display: inline-block;
-}
-
 
 
 .nav1 a:link{
@@ -273,24 +174,140 @@ display: inline-block;
     border-bottom:3px solid black ;
     border-left: 3px solid black;
     border-radius: 25px;
+    text-shadow: none;
    }
 
 
-   .nav1-formacao a:link{
+   .nav1-sobre li{
+    margin-right:0;
+    min-width:10px;
+    max-width: 380px;
+    margin-top: 350px;
+    height:20px;
+    align-items:left;
+    font-size: 70px;
+    font-family:'Courier New', Courier, monospace ;
+    display:inline;   
+    position:relative;
+    text-shadow: 3px 3px 3px black ;
+    
+
+   
+}
+
+/*nav-sobre*/
+
+
+.nav1-sobre a:link{
     margin: 0;
     text-decoration: none;
     font-style:oblique;
     font-size: 50px;
     display:inline-block;
-    margin-left:25px;
+    margin-left:0;
     border-bottom:3px solid black ;
     border-left: 3px solid black;
     border-radius: 25px;
-   }
-   .nav1-formacao{
-    margin-left: 350px;
+    text-shadow: none;
    }
 
+
+
+/*nav contato*/
+.nav1-contato li{
+    margin-right:0;
+    min-width:10px;
+    max-width: 380px;
+    margin-top: 350px;
+    height:20px;
+    align-items:left;
+    font-size: 70px;
+    font-family:'Courier New', Courier, monospace ;
+    display:inline;   
+    position:relative;
+    text-shadow: 3px 3px 3px black ;
+    
+
+   
+}
+
+.nav1-contato a:link{
+    margin: 0;
+    text-decoration: none;
+    font-style:oblique;
+    font-size: 50px;
+    display:inline-block;
+    margin-left:0;
+    border-bottom:3px solid black ;
+    border-left: 3px solid black;
+    border-radius: 25px;
+    text-shadow: none;
+   }
+
+   .nav1-formacao li{
+    margin-right:0;
+    min-width:10px;
+    max-width: 380px;
+    margin-top: 350px;
+    height:20px;
+    align-items:left;
+    font-size: 70px;
+    font-family:'Courier New', Courier, monospace ;
+    display:inline;   
+    position:relative;
+    text-shadow: 3px 3px 3px black ;
+    
+
+   
+}
+
+
+
+.nav1-formacao a:link{
+    margin: 0;
+    text-decoration: none;
+    font-style:oblique;
+    font-size: 50px;
+    display:inline-block;
+    margin-left:0;
+    border-bottom:3px solid black ;
+    border-left: 3px solid black;
+    border-radius: 25px;
+    text-shadow: none;
+   }
+
+
+
+   
+
+.redessociais li{
+    display:inline-block;
+    width: 50px;
+    height: 30px;
+    
+    
+   }
+
+   .redessociais-home li{
+    display:inline-block;
+    width: 50px;
+    height: 30px;
+    
+   }
+
+.redessociais img{
+width: 50px;
+height: 50px;
+display: inline-block;
+}
+
+.redessociais-home img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top: auto;
+    
+    }
 
 
    a:hover{
@@ -314,29 +331,6 @@ display: inline-block;
     font-style:inherit;
     
 }
-
-li{
-margin-top:70px;
-list-style-type: none;
-
-}
-
-
-/*
-.hero-final{
-    margin: 0;
-    padding: 0;
-    margin-left: 290px;
-    padding: 20px ;
-    font-size: 25px;
-    text-align: justify;
-    max-width: 700px;
-    min-width:320px;
-    height: 300px;
-    
-
-
-}*/
 
 
 
@@ -399,8 +393,184 @@ list-style-type: none;
 }
 
 #container img:hover{
-    transform: scale(2.5);
+    transform: scale(1.5);
 }
-@media (min-width: 900px) {
-   
+@media (max-width: 450px) {
+    .titulo h1{
+        font-size: 30px;
+        text-align: left;
+        
+    }
+    .nome h1{
+        font-size:2em ;
+        text-align: left;
+    }
+
+    .hero-content-formacao{
+        width: 450px;
+        margin-left: 40px;
+        height: auto;
+        display:flexbox;
+
+    }
+    .tabela{
+        margin-left: 30px;
+    }
+
+
+   #container{
+    margin-left: 40px;
+    display: contents;  
+    width: 350px;
+    height:auto;
+    margin-bottom:auto;
+   }
+    #container img{
+        width: 400px;
+        height: 200px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+
+    }
+    a{text-decoration: none;
+    
+    }
+    .hero-content{
+        margin-left: 10px;
+        width:350px ;
+    }
+
+    #content-final{
+        margin-top:40px;
+        height: auto;
+    }
+
+    .hero-content p{
+        font: 12px;
+    }
+
+    .hero-content h4{
+        font-size: 30px;
+    }
+    .rodape{
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .hero-content-formacao{
+        width: 400px;
+        height: auto;
+    }
+    .redessociais-home{
+        margin: 0;
+        padding: 0;
+        margin-top: 1000px;
+        margin-bottom:0;
+        position:relative ;
+    }
+    .redessociais{
+        margin: 0;
+        padding: 0;
+        margin-top:100px;
+        margin-bottom:auto;
+    }
+
+
+    .nav1 a:link{
+        
+        font-size: 25px;
+    
+        margin-right: 2px;
+        margin-left: 2px;
+        width: 200px;
+        
+    }
+
+    
+    .nav1-contato a:link{
+        font-size: 25px;
+        margin-top:0;
+        margin-right: 2px;
+        margin-left: 2px;
+        width: 200px;
+        
+    }
+
+    .nav1-sobre a:link{
+        font-size: 25px;
+        margin-top:0;
+        margin-right: 2px;
+        margin-left: 2px;
+        width: 200px;
+        
+    
+    }
+
+    .nav1-formacao a:link{
+        font-size: 25px;
+        margin-top:0;
+        margin-right: 2px;
+        margin-left: 2px;
+        width: 200px;
+        
+    }
+
+
+
+.nav1-formacao{
+    margin-top:-340px;
+    display: contents;
+    margin-left: -20px;
+    margin-right: 0;
+    height: auto;
+}  
+
+.nav1-sobre{
+    margin-top:-340px;
+    display: contents;
+    margin-left: -20px;
+    margin-right: 0;
+    height: auto;
+}  
+
+.nav1-contato{
+    margin-top:-340px;
+    display: contents;
+    margin-left: -20px;
+    margin-right: 0;
+    height: auto;
+}  
+.nav1-sobre li{
+    margin-top:740px;
+    display: contents;
+    margin-left: 20px;
+    margin-right: 0;
+    height: auto;
+} 
+.nav1-contato li{
+    margin-top:40px;
+    display: contents;
+    margin-left: 20px;
+    margin-right: 0;
+    height: auto;
+} 
+.nav1-formacao li{
+    margin-top:740px;
+    display: contents;
+    margin-left: 20px;
+    margin-right: 0;
+    height: auto;
+} 
+.nav1 li{
+    margin-top:740px;
+    display: contents;
+    margin-left: 20px;
+    margin-right: 0;
+    height: auto;
+}
+.hero-content-contato{
+    margin-top: 30px;
+    margin-bottom: auto;
+}  
     }
