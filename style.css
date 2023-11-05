@@ -458,10 +458,11 @@ display: inline-block;
         position: absolute;
         margin-bottom: 0;
         margin-top: 1400px;
+        width: 450px;
     }
 
     .hero-content-formacao{
-        width: 400px;
+        width: 450px;
         height: auto;
     }
     .redessociais-home{
