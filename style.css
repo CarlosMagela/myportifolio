@@ -454,8 +454,10 @@ display: inline-block;
     }
     .rodape{
         margin: 0;
-        padding: 0;
-        position: relative;
+        padding:auto;
+        position: absolute;
+        margin-bottom: 0;
+        margin-top: 1400px;
     }
 
     .hero-content-formacao{
@@ -465,9 +467,9 @@ display: inline-block;
     .redessociais-home{
         margin: 0;
         padding: 0;
-        margin-top: 1400px;
+        margin-top: 1200px;
         margin-bottom:0;
-        position:relative ;
+        position:absolute ;
     }
     .redessociais{
         margin: 0;
