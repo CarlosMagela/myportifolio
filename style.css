@@ -42,7 +42,7 @@ main{
     margin-right:0;
     min-width:220px;
     max-width:1440px ;
-    height:1000px;
+    height:auto;
     text-align: center;
     margin-bottom: 40px;
  
@@ -63,9 +63,7 @@ main{
   
    }
 
-
-       
-.hero-content-formacao {
+   .hero-content-formacao{
     margin:0;
     padding: 0;
     margin-top: 100px;
@@ -73,12 +71,13 @@ main{
     margin-right:0;
     min-width:220px;
     max-width:1440px ;
-    height: 300px;
+    height: auto;
     text-align: center;
  
   
    }
 
+       
    .c li{
 display: inline-block;
 position: relative;
@@ -153,11 +152,10 @@ p{
 
 
 .nav1 li{
-    
+    margin-right: 25px;
     min-width:10px;
     max-width: 580px;
     margin-top: 300px;
-   
     height:20px;
     align-items: center;
     font-size: 30px;
@@ -169,42 +167,56 @@ p{
    
 }
 
+/*nav-sobre*/
 
-.nav2 li{
+.nav1-sobre{
+    margin-left: 430px;
+}
+.nav1-sobre a:link{
+    margin: 0;
+    text-decoration: none;
+    font-style:oblique;
+    font-size: 50px;
+    display:inline-block;
+    margin-left:0;
+    border-bottom:3px solid black ;
+    border-left: 3px solid black;
+    border-radius: 25px;
+   }
+
+   .nav1-sobre li{
     
     min-width:10px;
     max-width: 580px;
-    margin-top: 300px;
-   
-    height:20px;
-    align-items: center;
+    margin-top:0px;
+    margin-left:0;
+    height:30px;
     font-size: 30px;
     font-family:'Courier New', Courier, monospace ;
     display:inline-block;   
     position:relative;
-    text-shadow: 2px 2px 2px black ;
-    position:relative;
    
 }
-    
 
 
-.nav3 li{
-    
-    min-width:10px;
-    max-width: 580px;
-    margin-top: 300px;
-   
-    height:20px;
-    align-items: center;
-    font-size: 30px;
-    font-family:'Courier New', Courier, monospace ;
-    display:inline-block;   
-    position:relative;
-    text-shadow: 2px 2px 2px black ;
-    position:relative;
-   
-}
+/*nav contato*/
+
+
+
+.nav1-contato a:link{
+    margin: 0;
+    text-decoration: none;
+    font-style:oblique;
+    font-size: 50px;
+    display:inline-block;
+    margin-left:25px;
+    border-bottom:3px solid black ;
+    border-left: 3px solid black;
+    border-radius: 25px;
+   }
+   .nav1-contato{
+    margin-left: 350px;
+   }   
 
 .nav1-contato li{
     
@@ -217,27 +229,9 @@ p{
     font-family:'Courier New', Courier, monospace ;
     display:inline-block;   
     position:relative;
-    border-left:2px solid #c0c0c0;
-    border-bottom:2px solid #c0c0c0 ;
-    border-radius: 10px;
-    text-shadow: 1px 1px 1px black ;
-
-}
-.nav1-sobre li{
+   
     
-    min-width:10px;
-    max-width: 580px;
-    margin-top:0px;
-    margin-left:0;
-    height:30px;
-    font-size: 30px;
-    font-family:'Courier New', Courier, monospace ;
-    display:inline-block;   
-    position:relative;
-    border-left:2px solid #c0c0c0;
-    border-bottom:2px solid #c0c0c0 ;
-    border-radius: 10px;
-    text-shadow: 1px 1px 1px black ;
+
 }
 .nav1-formacao li{
     
@@ -250,10 +244,7 @@ p{
     font-family:'Courier New', Courier, monospace ;
     display:inline-block;   
     position:relative;
-    border-left:2px solid #c0c0c0;
-    border-bottom:2px solid #c0c0c0 ;
-    border-radius: 10px;
-    text-shadow: 1px 1px 1px black ;
+   
 }
 .redessociais li{
     display:inline-block;
@@ -283,6 +274,24 @@ display: inline-block;
     border-left: 3px solid black;
     border-radius: 25px;
    }
+
+
+   .nav1-formacao a:link{
+    margin: 0;
+    text-decoration: none;
+    font-style:oblique;
+    font-size: 50px;
+    display:inline-block;
+    margin-left:25px;
+    border-bottom:3px solid black ;
+    border-left: 3px solid black;
+    border-radius: 25px;
+   }
+   .nav1-formacao{
+    margin-left: 350px;
+   }
+
+
 
    a:hover{
     text-transform: uppercase;
@@ -343,17 +352,6 @@ list-style-type: none;
     opacity: .8;
 }
 
-.rodape-formacao{
-    margin-bottom:0;
-    width:auto;
-    height: 60px;
-    background-color:rgba(0, 0, 0, 0.7);
-    text-align: center;
-    margin-top:1400px ;
-    margin-left: 0px;
-    padding: 15px;
-    opacity: .8;
-}
 
 
 #container{
@@ -373,22 +371,22 @@ list-style-type: none;
     display: flex;
     background-size: cover;
     background-position:right center ;
-    gap:85px;
-    margin-left:350px ;
+    gap:70px;
+    margin-left:280px ;
     align-content: stretch;
     min-width: 35px;
-    max-width: 600px;
+    max-width: 800px;
     min-height: 35px;
-    max-height: 600px;
+    max-height: 700px;
 
 }
 
 #container img{
  
     min-width: 60px;
-    max-width: 220px;
+    max-width: 320px;
     min-height: 40px;
-    max-height: 200px;
+    max-height: 300px;
     border: 2px solid black;
 
 }
@@ -400,7 +398,9 @@ list-style-type: none;
 
 }
 
-
+#container img:hover{
+    transform: scale(2.5);
+}
 @media (min-width: 900px) {
    
     }
