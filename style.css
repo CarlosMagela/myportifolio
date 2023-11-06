@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding: 0;
-    min-width: 300px;
+    min-width: 360px;
     max-width:1440px;
     font-family: 'Courier New', Courier, monospace;
     background-color:white;
@@ -14,7 +14,7 @@ main{
     margin-top: 60px;
     margin-right:0;
     margin-left: 0;
-    min-width:400px;
+    min-width:360px;
     max-width:1440px;
   
 }
@@ -28,7 +28,7 @@ main{
     margin-right:0;
     min-width:220px;
     max-width:1040px ;
-    height: 1200px;
+    height:auto;
     text-align: center;
  
   
@@ -40,7 +40,7 @@ main{
     margin-top: 100px;
     margin-left:20px;
     margin-right:0;
-    min-width:220px;
+    min-width:360px;
     max-width:1440px ;
     height:auto;
     text-align: center;
@@ -55,7 +55,7 @@ main{
     margin-top: 100px;
     margin-left:0;
  
-    min-width:220px;
+    min-width:360px;
     max-width:1440px ;
     height: 700px;
     text-align: center;
@@ -69,7 +69,7 @@ main{
     margin-top: 100px;
     margin-left:20px;
     margin-right:0;
-    min-width:220px;
+    min-width:360px;
     max-width:1440px ;
     height: auto;
     text-align: center;
@@ -95,7 +95,7 @@ main{
 margin:0;
 padding: 0;
 max-width:100%;
-min-width:340px;
+min-width:360px;
 height: 600px;
 margin-bottom:0px;
 background-image:url('img/bg-3.jpg');
@@ -390,6 +390,12 @@ height: 50px;
 #container img:hover{
     transform: scale(1.5);
 }
+
+
+
+
+
+
 @media (max-width: 450px) {
     .titulo h1{
         font-size: 30px;
@@ -439,7 +445,7 @@ height: 50px;
     }
     .hero-content{
         margin-left: 10px;
-        width:350px ;
+      
         height: auto;
         margin-bottom: 20px;
     }
@@ -464,8 +470,8 @@ height: 50px;
         position: absolute;
         margin-bottom: 0;
         
-        width:450px;
-    }
+        width:100%;
+       }
 
     .rodape p{
         font-size: 20px;
@@ -476,7 +482,8 @@ height: 50px;
         height: auto;
     }
     .redessociais-home{
-        width: 400px;
+        min-width:360px;
+        width: 350px;
         height: 150px;
         display: inline-block;
         margin-top:10px;
