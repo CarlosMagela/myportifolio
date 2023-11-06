@@ -14,7 +14,7 @@ main{
     margin-top: 60px;
     margin-right:0;
     margin-left: 0;
-    min-width:200px;
+    min-width:400px;
     max-width:1440px;
   
 }
@@ -94,7 +94,7 @@ main{
 .banner{
 margin:0;
 padding: 0;
-max-width:1440px ;
+max-width:100%;
 min-width:340px;
 height: 600px;
 margin-bottom:0px;
@@ -213,7 +213,6 @@ p{
 
 
 
-/*nav contato*/
 .nav1-contato li{
     margin-right:0;
     min-width:10px;
@@ -256,10 +255,7 @@ p{
     display:inline;   
     position:relative;
     text-shadow: 3px 3px 3px black ;
-    
-
-   
-}
+    }
 
 
 
@@ -277,28 +273,27 @@ p{
    }
 
 
-
-   
-
 .redessociais li{
     display:inline-block;
     width: 50px;
     height: 30px;
-    
+    margin-bottom:0;
     
    }
 
    .redessociais-home li{
-    display:inline-block;
+   
     width: 50px;
     height: 30px;
+    margin-bottom: 0;
     
    }
 
 .redessociais img{
 width: 50px;
 height: 50px;
-display: inline-block;
+
+
 }
 
 .redessociais-home img{
@@ -336,13 +331,13 @@ display: inline-block;
 
 .rodape{
     margin-bottom:0;
-    width:auto;
-    height: 60px;
+    width:100%;
+    height:auto;
     background-color:rgba(0, 0, 0, 0.7);
     text-align: center;
     margin-top:auto;
     margin-left: 0px;
-    padding: 15px;
+    padding: 0;
     opacity: .8;
 }
 
@@ -438,11 +433,15 @@ display: inline-block;
     .hero-content{
         margin-left: 10px;
         width:350px ;
+        height: auto;
+        margin-bottom: 20px;
     }
 
     #content-final{
         margin-top:40px;
         height: auto;
+        margin-bottom: 140px;
+    
     }
 
     .hero-content p{
@@ -457,8 +456,12 @@ display: inline-block;
         padding:auto;
         position: absolute;
         margin-bottom: 0;
-        margin-top: 1400px;
-        width: 450px;
+        margin-top:-40px;
+        width:100%;
+    }
+
+    .rodape p{
+        font-size: 20px;
     }
 
     .hero-content-formacao{
@@ -466,19 +469,21 @@ display: inline-block;
         height: auto;
     }
     .redessociais-home{
-        margin: 0;
-        padding: 0;
-        margin-top: 1200px;
-        margin-bottom:0;
-        position:absolute ;
-    }
-    .redessociais{
-        margin: 0;
-        padding: 0;
+        width: 400px;
+        height: 150px;
+        display: inline-block;
         margin-top:100px;
-        margin-bottom:auto;
+        margin-bottom: 0;
+        
     }
 
+    .redessociais-home li{
+        display: inline;
+        width: 350px;
+        height: 80px;
+      
+        
+       }
 
     .nav1 a:link{
         
@@ -524,7 +529,7 @@ display: inline-block;
 .nav1-formacao{
     margin-top:-340px;
     display: contents;
-    margin-left: -20px;
+    margin-left: -30px;
     margin-right: 0;
     height: auto;
 }  
