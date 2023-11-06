@@ -252,7 +252,7 @@ p{
     align-items:left;
     font-size: 70px;
     font-family:'Courier New', Courier, monospace ;
-    display:inline;   
+     
     position:relative;
     text-shadow: 3px 3px 3px black ;
     }
@@ -264,7 +264,7 @@ p{
     text-decoration: none;
     font-style:oblique;
     font-size: 50px;
-    display:inline-block;
+    display:block;
     margin-left:0;
     border-bottom:3px solid black ;
     border-left: 3px solid black;
@@ -282,15 +282,15 @@ p{
    }
 
    .redessociais-home li{
-   
+   display: inline-block;
     width: 50px;
-    height: 30px;
+    height: 70px;
     margin-bottom: 0;
     
    }
 
 .redessociais img{
-width: 50px;
+width: 350px;
 height: 50px;
 
 
@@ -403,7 +403,7 @@ height: 50px;
 
     .hero-content-formacao{
         width: 400px;
-        margin-left: 40px;
+        margin-left: 30px;
         height: auto;
    
 
@@ -527,9 +527,10 @@ height: 50px;
 
 
 .nav1-formacao{
+    display: block;
     margin-top:-340px;
     display: contents;
-    margin-left: -30px;
+    margin-left: -20px;
     margin-right: 0;
     height: auto;
 }  
@@ -564,7 +565,7 @@ height: 50px;
     height: auto;
 } 
 .nav1-formacao li{
-    margin-top:740px;
+    margin-top:40px;
     display: contents;
     margin-left: 20px;
     margin-right: 0;
