@@ -407,14 +407,6 @@ height: 50px;
         text-align: left;
     }
 
-    .hero-content-formacao{
-        width: 400px;
-        margin-left: 30px;
-        height: auto;
-   
-
-    }
-
     .hero-content-formacao h4{
     
         margin-left:10px;
@@ -476,8 +468,8 @@ height: 50px;
     .rodape p{
         font-size: 20px;
     }
-
-    .hero-content-formacao{
+    
+   .hero-content-formacao{
         width: 400px;
         height: auto;
     }
