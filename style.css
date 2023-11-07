@@ -410,6 +410,7 @@ height: 50px;
     .hero-content-formacao h4{
     
         margin-left:10px;
+    
        
 
     }
@@ -471,8 +472,12 @@ height: 50px;
     
    .hero-content-formacao{
         width: 400px;
+        margin-left: 10px;
+      
         height: auto;
+        margin-bottom: 20px;
     }
+    
     .redessociais-home{
         min-width:360px;
         width: 350px;
