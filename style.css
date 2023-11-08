@@ -417,13 +417,14 @@ height: 50px;
 
     }
     .tabela{
-        margin-left: 5px;
+        margin-left: 10px;
+      
     }
 
 
    #container{
     margin-left: 40px;
-    display: contents;  
+    display:block;  
     width: 350px;
     height:auto;
     margin-bottom:auto;
@@ -431,7 +432,7 @@ height: 50px;
     #container img{
         width: 400px;
         height: 200px;
-        margin-left: 20px;
+        margin-left: 30px;
         margin-bottom: 30px;
 
     }
@@ -446,7 +447,7 @@ height: 50px;
     }
 
     #content-final{
-        margin-top:40px;
+        margin-top:640px;
         height: auto;
         margin-bottom: 140px;
     
@@ -472,7 +473,7 @@ height: 50px;
         font-size: 20px;
     }
     .banner-formacao{
-        margin-left:0;
+        margin: left 30px;
         min-width:400px;
         max-width:100%;
         background-color: blue;
