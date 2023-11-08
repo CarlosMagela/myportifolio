@@ -57,7 +57,7 @@ main{
  
     min-width:360px;
     max-width:1440px ;
-    height: 700px;
+    height:auto;
     text-align: center;
  
   
@@ -103,7 +103,18 @@ background-size: cover;
 background-position:center;
 
 }
-
+.banner-formacao{
+    margin:0;
+    padding: 0;
+    max-width:100%;
+    min-width:360px;
+    height: 600px;
+    margin-bottom:0px;
+    background-image:url('img/bg-3.jpg');
+    background-size: cover;
+    background-position:center;
+    
+    }
 .titulo h1{
     min-width:320px;
     max-width:440px;
@@ -414,7 +425,7 @@ height: 50px;
 
     }
     .tabela{
-        margin-left: 15px;
+        margin-left: 5px;
     }
 
 
@@ -459,7 +470,7 @@ height: 50px;
     .rodape{
         margin: 0;
         padding:auto;
-        position: absolute;
+        position: relative;
         margin-bottom: 0;
         
         width:100%;
@@ -468,7 +479,12 @@ height: 50px;
     .rodape p{
         font-size: 20px;
     }
-    
+    .banner-formacao{
+        margin-left:0;
+        min-width:260px;
+        max-width:100%;
+        background-color: blue;
+    }
    .hero-content-formacao{
         width: 440px;
         margin-left: 30px;
@@ -531,7 +547,7 @@ height: 50px;
         margin-right: 2px;
         margin-left: 2px;
         width: 200px;
-        
+        display: block;
     }
 
 
