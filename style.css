@@ -399,7 +399,7 @@ height: 50px;
 }
 
 #container img:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 
@@ -481,11 +481,13 @@ height: 50px;
     }
     .banner-formacao{
         margin-left:0;
-        min-width:260px;
+        min-width:400px;
         max-width:100%;
         background-color: blue;
     }
    .hero-content-formacao{
+    margin: 0;
+    padding: 0;
         width: 440px;
         margin-left: 30px;
       
