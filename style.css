@@ -2,7 +2,8 @@ body{
     margin:0;
     padding: 0;
     min-width: 360px;
-    max-width:1440px;
+    width:100%;
+    max-width: 1440px;
     font-family: 'Courier New', Courier, monospace;
     background-color:white;
     
@@ -15,7 +16,7 @@ main{
     margin-right:0;
     margin-left: 0;
     min-width:360px;
-    max-width:1440px;
+    width:100%;
   
 }
 
@@ -26,7 +27,7 @@ main{
     margin-top: 100px;
     margin-left:110px;
     margin-right:0;
-    min-width:220px;
+    min-width300px;
     max-width:1040px ;
     height:auto;
     text-align: center;
@@ -41,7 +42,7 @@ main{
     margin-left:20px;
     margin-right:0;
     min-width:360px;
-    max-width:1440px ;
+    max-width:1040px ;
     height:auto;
     text-align: center;
     margin-bottom: 40px;
@@ -56,7 +57,7 @@ main{
     margin-left:0;
  
     min-width:360px;
-    max-width:1440px ;
+    max-width:1040px ;
     height:auto;
     text-align: center;
  
@@ -67,10 +68,10 @@ main{
     margin:0;
     padding: 0;
     margin-top: 100px;
-    margin-left:0;
+    margin-left:240px;
     margin-right:0;
     min-width:360px;
-    max-width:1440px ;
+    max-width:1040px ;
     height: auto;
     text-align: center;
  
@@ -79,7 +80,7 @@ main{
 
 
 .tabela{
-    margin-left: 250px;
+    margin-left:0px;
 }
 
  td{
@@ -90,6 +91,7 @@ main{
 
 .tabela p{
     font-size: 30px;
+    font-style: bolder;
 }
 .banner{
 margin:0;
@@ -334,13 +336,15 @@ height: 50px;
 
 .rodape{
     margin-bottom:0;
+    min-width:360px;
+    max-width: 450px;
     width:100%;
-    height:auto;
+    height:100px;
     background-color:rgba(0, 0, 0, 0.7);
     text-align: center;
     margin-top:auto;
     margin-left: 0px;
-    padding: 0;
+    padding: 20px;
     opacity: .8;
 }
 
@@ -441,7 +445,7 @@ height: 50px;
     }
     .hero-content{
         margin-left: 10px;
-      
+       width: 334px;
         height: auto;
         margin-bottom: 20px;
     }
@@ -450,6 +454,8 @@ height: 50px;
         margin-top:640px;
         height: auto;
         margin-bottom: 140px;
+        width: 334px;
+        margin-left: 25px;
     
     }
 
@@ -463,27 +469,34 @@ height: 50px;
     .rodape{
         margin: 0;
         padding:10px;
-        position: relative;
+        position: absolute;
         margin-bottom: 0;
         height: 80px;
-        width:100%;
+        min-width:360px;
+        max-width:400px;
+        
+        
        }
 
     .rodape p{
         font-size: 20px;
     }
     .banner-formacao{
-        margin: left 30px;
-        min-width:400px;
-        max-width:100%;
-        background-color: blue;
+        align-items: center;
+        width:100%;
+        
+    }
+    .banner{
+        align-items: center;
+      
+        width:100%;
+        
     }
    .hero-content-formacao{
     margin: 0;
     padding: 0;
-        width: 440px;
+        width: 420px;
         margin-left: 30px;
-      
         height: auto;
         margin-bottom: 20px;
     }
